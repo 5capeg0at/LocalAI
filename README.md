@@ -7,6 +7,7 @@ This repository contains the Docker Compose configuration and .env file to set u
 - Postgres (5432:5432)
 - Qdrant (6333:6333)
 - Lobe-Chat (3210:3210)
+- SearXNG (8088:8080)
 
 ## Getting Started
 - Install Docker Desktop
@@ -32,7 +33,7 @@ You can now access the services at the following URLs:
 - Lobe-Chat: [http://localhost:3210](http://localhost:3210/)
 - Ollama: [http://localhost:11434](http://localhost:11434/)
 - n8n: [http://localhost:5678](http://localhost:5678/)
-- SearXNG: http://localhost:8088
+- SearXNG: [http://localhost:8088](http://localhost:8088)
 
 The other services (Postgres, Qdrant) can be accessed on their respective ports, but there is no UI - these are for n8n automations and RAG.
 
